@@ -17,6 +17,7 @@
       <!-- a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Home</a -->
   
       <a href="#work" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">My Work</a>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Research Highlights</a>
           <a href="thesis/index.html" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">PhD Thesis in Brief</a>
       <a href="Resume.pdf" target="_blank" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Resume</a>
       <a href="https://medium.com/@k.r.patrikar" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Blog</a>
@@ -44,22 +45,40 @@
     <div class="w3-padding-24">
       <!-- h2>My Work</h2 -->
 
-<img src="sitefigscoll.jpg" style="width:100%">
+<!--img src="sitefigscoll.jpg" style="width:100%">
       <!-- p>Some of my latest projects.</p-->
     </div>
     
   </div>
+  
+   <div class="w3-half w3-indigo w3-container" style="min-height:800px">
+        <button onclick="window.location.href='#';">
+      Home
+    </button>
+    <div class="w3-padding-64" id="highlight"> <!-- w3-center -->
+      <h2><center>Highlights</center></h2>
+<h4>Self Assembled Monolayers for Contact Resistance  </h4>
+Attempting to reduce contact resistance of Cu contacts in OFETs, to see if they can be an alternative to the more usual Au ones, we stumbled upon an apparant contradiction. The molecules we were using raised the work function of Cu surface (measured by KPM), though by different amounts. However, the reduction in contact resistance (extracted from TLM) was reverse of trend in work function. To solve this, we obtained more properties of the interface by density functional theory computations, where we ontained a clue: the delocalization of interface orbitals (obtained by DFT) was different depending on the SAM molecules, thus altering the feasibility of charge transfer in device. Based on these observations, an analytical treatment of the interface at equilibrium uncovered the mechanism of SAM. Obtaining the solution for Poisson's equation at the SAM functionalised interface revealed that the equilibrium energy level alignement is accompanied by a higher amount of charge transfer across the interface when the orbital delocalization is higher. This in turn can be equated to the shift in threhold voltage, and contact resistance. This also established a way of evaluating the interface by a measurement of a single OFET, as opposed to multiple OFETs if varying channel lengths as required by TLM. <br>
+Further, a model was developed to predict the effect of a particular SAM on contact resistance and interface properties for a given OFET, by combining paramters computed from first principles with experimental measurements in devices.     
+
+<h4>Charge Transport in Poymers  </h4>
+Having fabricated OFETs of two polymers PTB7 and PTB7-Th, which had led to highly efficient solar cells, the device characteristics caught our attention: although the polymers had identical conjugated backbones, the difference in their mobility was an order of magnitude. A high difference was also measured in SCLC characteristics. The molecules were analysed by first principle computations, whereby reorganization energies were calculated based on neutral and charged configurations. The ratio of mobilities calculated using Marcus equation by plugging in computed values corresponded to the measured values. Its rigid side chain group had drastically lowered the reorganization energy of PTB7-Th, and allowed device characteristics to increase. This study both revealed the role of side chains in tuning device characteristics, as it uncovered the influence of reorganization energy in enhancing device performance. <br>
+Further, an incvestigation on the role of reorganization energy and vibronic modes on polaron and exciton transport behaviour is being carried out.
+  </div>
+</div>
+
+  
 
   <div class="w3-half w3-indigo w3-container" style="min-height:800px">
         <button onclick="window.location.href='#';">
       Home
     </button>
     <div class="w3-padding-64" id="work"> <!-- w3-center -->
-      <h2><center>Work</center></h2>
+      <h2><center>Experience</center></h2>
 <h4>Research Activities </h4>
-In the various research projects I have worked on, have found solutions to following problems:
+In the various research projects I have worked on, we have found solutions to following problems:
 <ul>
-<li> Developing a model connecting molecular properties of self assembled monolayer with contact resistance in organic transistors.
+<li> How can we predict the effect of self assembled monolayers at at contact interface in OFET on device performance?
 <li> How do self assembled monolayer functionalized contacts reduce contact resistance in organic devices? (<a href="SAM Paper.pdf" target="_blank">Ref.</a>) </li>
 <li> How can minute differences in molecular structure increase mobility of organic devices drastically? (<a href="RE_OFET paper.pdf" target="_blank">Ref.</a>) </li>
 <li> What does temperature dependent charge transport tell us about critical parameters to improve charge transport in polymers? </li>
@@ -70,7 +89,7 @@ In the various research projects I have worked on, have found solutions to follo
 <ul>
 <li> CMOS technologies, Solution processed device fabrication, MEMS processes</li>
 <li>  Electrical & Material characterization </li>
-<li> Ab-initio calculations on molecular and film stack systems </li>
+<li> Ab-initio calculations on molecular or film stack systems </li>
   <li> Device modeling and numerical computations </li>
 </ul>
 
