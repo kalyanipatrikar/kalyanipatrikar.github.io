@@ -1,0 +1,9 @@
+@article{patrikar2023polarity,
+  title={Polarity and orbital driven reduction in contact resistance in organic devices with functionalized electrodes},
+  author={Patrikar, Kalyani and Mondal, Anirban},
+  journal={The Journal of Chemical Physics},
+  volume={159},
+  number={12},
+  year={2023},
+  publisher={AIP Publishing}
+}
