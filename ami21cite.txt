@@ -1,0 +1,7 @@
+@article{patrikar2021charge,
+  title={Charge Carrier Doping As Mechanism of Self-Assembled Monolayers Functionalized Electrodes in Organic Field Effect Transistors},
+  author={Patrikar, Kalyani and Bothra, Urvashi and Rao, Valipe Ramgopal and Kabra, Dinesh},
+  journal={Adv. Mater. Interfaces},
+  pages={2101377},
+  year={2021}
+}

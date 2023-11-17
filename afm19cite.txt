@@ -1,0 +1,10 @@
+@article{patrikar2019influence,
+  title={Influence of Pendant Group on Mobility of Organic Thin Film Transistor in Correlation with Reorganization Energy of Molecules},
+  author={Patrikar, Kalyani and Jain, Nakul and Chakraborty, Dwaipayan and Johari, Priya and Rao, Valipe Ramgopal and Kabra, Dinesh},
+  journal={Advanced Functional Materials},
+  volume={29},
+  number={8},
+  pages={1805878},
+  year={2019},
+  publisher={Wiley Online Library}
+}
