@@ -1,0 +1,10 @@
+@article{joshi2023ligand,
+  title={Ligand-mediated electron transport channels enhance photocatalytic activity of plasmonic nanoparticles},
+  author={Joshi, Gayatri and Kashyap, Rajesh and Patrikar, Kalyani and Mondal, Anirban and Khatua, Saumyakanti},
+  journal={Nanoscale},
+  volume={15},
+  number={41},
+  pages={16552--16560},
+  year={2023},
+  publisher={Royal Society of Chemistry}
+}
