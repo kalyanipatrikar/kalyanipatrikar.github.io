@@ -469,7 +469,7 @@
 </div>
   </section>
 
-
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <section id="publications" class="home-section wg-pages   "  >
     <div class="container">
       
@@ -496,10 +496,25 @@
   Cite
 </button></a>
 
-    <!--button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    <button type="button" onclick="document.getElementById('id01').style.display='block'" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
  Cite
-  </button-->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  </button>
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('id01').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>Modal Header</h2>
+      </header>
+      <div class="w3-container">
+        <p>Some text..</p>
+        <p>Some text..</p>
+      </div>
+
+    </div>
+  </div>
+    
+    <!-- div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -517,7 +532,7 @@
       </div>
     </div>
   </div>
-</div>
+  </div-->
 
 <!--button class="btn btn-outline-success btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#ami2023-bib" aria-expanded="false" aria-controls="ami2023-bib">BibTEX</button>
         <div class="collapse" id="ami2023-bib">
