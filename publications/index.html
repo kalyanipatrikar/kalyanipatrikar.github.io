@@ -1,127 +1,309 @@
-<html>
-  <head>
-    <title>Kalyani Patrikar's Webpage</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" type="text/css" href="https://omdb.mathub.io/css/jquery-ui.min.css"> -->
-    <link rel="stylesheet" type="text/css" href="https://omdb.mathub.io/css/main.css?v=1.2">
-  <!--Dynamic StyleSheets added from a view are pasted here-->
-  <link rel="shortcut icon" href="/favicon.png">
-    <script type="text/javascript" src="https://omdb.mathub.io/scripts/jquery-3.1.0.min.js"></script>
-  <script type="text/javascript" src="https://omdb.mathub.io/scripts/highcharts/highcharts.js"></script>
-  <script type="text/javascript" src="https://omdb.mathub.io/scripts/highcharts/highcharts-more.js"></script>
-  <script type="text/javascript" src="https://omdb.mathub.io/scripts/highcharts/exporting.js"></script>
-  <script type="text/javascript" src="https://omdb.mathub.io/scripts/highcharts/boost.js"></script>
-  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-  <script src='https://www.google.com/recaptcha/api.js'></script>
-  <script type="text/javascript" src="https://omdb.mathub.io/scripts/chemicalFormula.js"></script>
-  <script type="text/javascript" src="https://omdb.mathub.io/scripts/helperbox.js"></script>
-  <script type="text/javascript" src="https://omdb.mathub.io/scripts/formmanager.js"></script>
-  <script type="text/javascript" src="https://omdb.mathub.io/scripts/main.js"></script>
-  <script type="text/javascript" src="https://omdb.mathub.io/scripts/moment-with-locales.js"></script>
-  <meta name="description" content="Academic Page">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"> 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
-  <link rel="stylesheet" href="../academic.min.fb.css">
-  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
-
-  <!--Dynamic scripts added from a view are pasted here-->
-  </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Academic Webpage">
+  <!--meta name="keywords" content="anirban mondal, anirban, iitgn, gandhinagar,
+  organic electronics, electrolytes, machine learning, jncasr, chemistry, materials science"-->
+  <meta name="author" content="Kalyani Patrikar">
+  <title>Kalyani Patrikar</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="favicon_io/site.webmanifest">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <link href="css/carousel.css" rel="stylesheet">
+</head>
 <body>
-	
-<header class="sticky-top nav-box-shadow">
-<nav class="navbar navbar-expand-lg navbar-light bg-white">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav w-100">
-      <!-- Home -->
-	            <li class="nav-item">
-	<a class="nav-link" href="/">Home</a>
-		    </li>
-	    <li>
-          <a class="nav-link " href="/#projects" data-target="#projects"><span>Research</span></a>
-        </li>
+<!--Navigation-->
+
+<nav class="navbar navbar-expand-md navbar-white">
+  <div class="container">
+
+    <!--a class="navbar-brand" href="index.html" style="text-decoration: none; color: black;">
+      <img src="images/IITGN.png" alt="" width="auto" height="45">
+      Computational Materials Discovery
+  </a-->
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
     
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
         <li class="nav-item">
-          <a class="nav-link " href="/#talks" data-target="#talks"><span>Teaching</span></a>
+          <a class="nav-link" href="research.html">Research</a>
+        </li>
+	 <li class="nav-item">
+          <a class="nav-link" href="news.html">Teaching</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="publication.html">Publications</a>
         </li>
 
-        <li class="nav-item">
-          <a class="nav-link " href="/#publications" data-target="kalyanipatrikar.github.io"><span>Publications</span></a>
-      </li>
-
-      <!-- Browse -->
-      <!--li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Browse
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#Projects">Research</a>
-          <a class="dropdown-item" href="#Talks">Teaching</a>
-          <!--div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="https://omdb.mathub.io/user">Users</a>
-          <a class="dropdown-item" href="https://omdb.mathub.io/group">Groups</a>
-          <div class="dropdown-divider"></div-->
-          <!--a class="dropdown-item" href="https://omdb.mathub.io/dataset">Datasets</a-->
-        </div>
-</li-->
-
-
-
-    </ul>
+      </ul>      
+    </div>
   </div>
 </nav>
-</header>
-	
 
-	<main>
-    <div>
-      <div class="container-fluid bg-light">
-    <div class="row align-items-cente">
-      <div class="col-md-3 mx-auto order-md-1 py-5">
-        <p class="text-center">
-         <img src="/..SiteDP.jpg" width="80%" />
-		  <link itemprop="url" href="">
+	  <section id="about" class="home-section wg-about   "  >
+    <div class="container">
+      
 
-      <!--ul class="network-icon" aria-hidden="true">
+<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+
+      
+      
+      <img class="portrait" src="SiteDP.jpg" itemprop="image" alt="Avatar">
+      
+
+      <div class="portrait-title">
+        <h2 itemprop="name">Kalyani Patrikar</h2>
+        <h3 itemprop="jobTitle">Early Career Fellow</h3>
+
         
+        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+          <a href="https://https://people.iitgn.ac.in/~anirban/" target="_blank" itemprop="url" rel="noopener">
+          <span itemprop="name">Computational Materials Discovery</span>
+          </a>
+        </h3>
+        
+        
+        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+          <a href="https://www.iitgn.ac.in" target="_blank" itemprop="url" rel="noopener">
+          <span itemprop="name">IIT Gandhinagar</span>
+          </a>
+        </h3>
+        
+      </div>
+
+      <link itemprop="url" href="">
+
+      <ul class="network-icon" aria-hidden="true">
+    
         <li>
           <a itemprop="sameAs" href="https://scholar.google.com/citations?user=2zSvOe4AAAAJ&hl=hi&oi=ao" target="_blank" rel="noopener">
            <i class="ai ai-google-scholar big-icon"></i>
           </a>
         </li>
 
-	</ul-->
-        </p>
-        <p class="network-icon">
-          <a href="thesis/index.html" target="_blank" rel="noopener"><i class="fa-solid fa-book"></i> </a>
-          <!--img src="/img/villum-alpha.png" class="intro-img" / -->
-        </p>
-	      
-      </div>
-      <div class="col-md-9 order-md-2 text-center text-md-left pr-md-5 py-5 my-5 align-middle">
-        <h1>
-          <!--span class="heading-mid">Welcome to the <br /></span-->
-          <span class="heading-big">About Me</span>
-        </h1>
-        <p class="lead">
-         I explore microscopic phenomenon in electronic devices by combining experimental and computational studies, so as to uncover ways to enhance their performance.
-        </p>
-	          <p><a href="Resume.pdf" target="_blank">CV</a></p>   
-        <p class="lead mb-4">
+                <li>
+          <a itemprop="sameAs" href="thesis/index.html" target="_blank" rel="noopener">
+           <i class="fa-solid fa-book"></i>
+          </a>
+        </li>
+             
+        
+        <li>
+          <a itemprop="sameAs" href="https://github.com/kalyanipatrikar" target="_blank" rel="noopener">
+           <i class="fab fa-github big-icon"></i>
+          </a>
+        </li>
 
-        <div class="d-flex flex-column flex-md-row lead mb-3">
-                    <a href="https://omdb.mathub.io/user/register" class="btn btn-lg btn-primary mb-3 mb-md-0 mr-md-3" >Register now</a>
-                    <a href="https://omdb.mathub.io/material" class="btn btn-lg btn-outline-secondary mb-3 mb-md-0 mr-md-3">Browse materials</a>
-        </div>
+        <li>
+          <a itemprop="sameAs" href="https://medium.com/@k.r.patrikar" target="_blank" rel="noopener">
+          <i class="fa-brands fa-medium"></i>
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+  <div class="col-12 col-lg-8" itemprop="description">
+
+    
+    <h1>About me</h1>
+
+    <p> I explore microscopic phenomenon in electronic devices by combining experimental and computational studies, so as to uncover ways to enhance their performance. </p>
+
+    <p><a href="Resume.pdf" target="_blank">CV</a></p>     
+    <div class="row">
+
+      
+      <div class="col-md-5">
+        <h3>Interests</h3>
+        <ul class="ul-interests">
+
+          <li> <i>Ab Initio</i> Computations</li>
+          <li> AI for Sciences </li>
+          <li> Nanofabrication & Characterization </li>
+          <li> Device Modeling </li>
+          
+          
+        </ul>
       </div>
+      
+
+      
+      <div class="col-md-7">
+        <h3>Education</h3>
+        <ul class="ul-edu fa-ul">
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">PhD  <b>Electrical Engineering</b> </p>
+              <p class="institution"><a href="https://www.iitb.ac.in" target="_blank" itemprop="url" rel="noopener">Indian Institute of Technology Bombay</a> </p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">MTech <b>Materials Science </b> </p>
+              <p class="institution"><a href="https://www.iitb.ac.in" target="_blank" itemprop="url" rel="noopener"> Indian Institute of Technology Bombay </a> </p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">BTech <b> Metallurgical & Materials Engineering</b> </p>
+              <p class="institution"> <a href="https://www.vnit.ac.in" target="_blank" itemprop="url" rel="noopener">  Visvesvaraya National Institute of Technology </a></p>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+      
+
     </div>
   </div>
 </div>
 
-		
+    </div>
+  </section>
 
 
-	</main>
+
+<!--Slider-->
+
+<div class="container">
+    <div class="pt-3">
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/Slideshow1.webp" style="width:100%">
+        </div>
+        <div class="carousel-item">
+            <img src="images/Slideshow2.webp" style="width:100%">
+        </div>
+        <div class="carousel-item">
+            <img src="images/Slideshow3.webp" style="width:100%">
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </div>
+</div>
+
+<!--Body-->
+
+<div class="container">
+  <!-- <hr class="featurette-divider"> -->
+  <div class="row pt-5">
+    <div class="col-md-12">
+      <div class="p-4 mb-3 bg-light rounded">
+        <p>The goal of our group is to develop computational approaches to improve our
+          understanding of molecular materials and accelerate the discovery of functional
+          materials for applications in energy and sustainability.</p>
+        <p>The materials we study include organic semiconductors, ion conductors, organic
+           plastic crystals, and hybrid molecule-metal interfaces. We are excited about
+           their potential applications in many technologically relevant fields such as 
+           organic light-emitting diodes, solar cells, solid-state batteries, and fuel cells.</p>
+        <p>To address the fundamental and challenging aspects of these complex systems, we
+          combine first-principles electronic structure theory with multiscale methods and
+          data-driven machine learning approaches. We often compare our computational 
+          predictions to experimental results reported in the scientific literature or 
+          collaborate directly with experimentalists. Our work is thus highly collaborative 
+          and multi-disciplinary, combining expertise from chemistry, physics, materials 
+          science, chemical engineering, and computer science.</p>
+      </div>
+    </div>
+    <!-- <div class="col-md-4">
+      <div class="p-4 mb-3 bg-secondary shadow bg-light rounded">
+        <h4 style="margin-bottom: 0.5cm;">News</h4>
+        <dt><time datetime="2021-07">July 2021</time></dt>
+        <dd>Our article &quot;Physical Properties of OLED Host Materials&quot; got accepted as
+          a review in <a href="#">Chemical Physics Reviews</a>.</dd>
+        <dt><time datetime="2020-06">June 2021</time></dt>
+        <dd>Dr. Mondal joins IIT Gandhinagar as Assistant Professor!</dd>
+      </div>
+    </div> -->
+
+    <div class="row m-0 pt-4">
+      <div class="col"><p style="border-bottom: 1px solid orange; padding-bottom: 15px; margin-bottom: 15px"></p></div>
+      <div class="col-auto"><h4>Support</h4></div>
+      <div class="col"><p style="border-bottom: 1px solid orange; padding-bottom: 15px; margin-bottom: 15px"></p></div>
+    </div>
+
+    <div class="col-md-6 text-center pt-2">
+      <figure class="figure">
+        <a href="https://iitgn.ac.in/" target="_blank"><img src="images/IITGN-Logo.png" class="figure-img img-fluid rounded" width="150" height="auto"></a>
+        <figcaption class="figure-caption text-center">Research Initiation Grant <br /> IIT Gandhinagar</figcaption>
+      </figure>
+    </div>
+
+    <div class="col-md-6 text-center pt-2">
+      <figure class="figure">
+        <a href="https://www.serbonline.in/SERB/HomePage" target="_blank"><img src="images/SERB.png" class="figure-img img-fluid rounded" width="240" height="auto"></a>
+        <figcaption class="figure-caption text-center">Start-up Research Grant (SERB)<br />Department of Science and Technology, India</figcaption>
+      </figure>
+    </div>
+
+  </div>
+</div>
+
+<!--Footer-->
+
+<footer class="footer mt-5 py-3 text-white">
+  <div class="container">
+    <div class="row">
+      <div class="row mb-3">
+
+        <div class="col-4 text-start">
+          <dd><a style="text-decoration: none; color:white;" href="https://iitgn.ac.in/"
+            target="_blank">Indian Institute of Technology, Gandhinagar</a></dd>  
+        </div>
+
+        <div class="col-4 text-center">
+          <dd>Anirban Mondal &copy; 2021</dd>
+        </div>
+
+        <div class="col-4 text-end">
+          <a href="https://twitter.com/manirban89" target="_blank"><img class="img-fluid bg-light"
+            src="images/twitter.svg" width="20" height="20" alt="Twitter"></a>&ensp;
+            <a href="https://publons.com/researcher/1834067/anirban-mondal/" target="_blank"><img class="img-fluid bg-light"
+              src="images/publons.svg" width="30" height="30" alt="Publons"></a>
+        </div>
+        
+      </div>      
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
