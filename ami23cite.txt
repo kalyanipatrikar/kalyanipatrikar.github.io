@@ -1,6 +1,0 @@
-@article{patrikar2023understanding,
-  title={Understanding the Microscopic Origin of the Contact Resistance at the Polymer--Electrode Interface},
-  author={Patrikar, Kalyani and Rao, V Ramgopal and Kabra, Dinesh and Mondal, Anirban},
-  journal={ACS Applied Materials \& Interfaces},
-  publisher={ACS Publications}
-}

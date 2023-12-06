@@ -1,0 +1,9 @@
+@article{MondalAMI2023,
+author = {Patrikar, Kalyani and Rao, V. Ramgopal and Kabra, Dinesh and Mondal, Anirban},
+title = {Understanding the Microscopic Origin of the Contact Resistance at the Polymer–Electrode Interface},
+journal = {ACS Appl. Mater. Interfaces},
+volume = {15},
+number = {42},
+pages = {null},
+year = {2023},
+doi = {10.1021/acsami.3c10260}}
