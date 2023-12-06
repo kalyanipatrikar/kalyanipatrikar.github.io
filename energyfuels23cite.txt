@@ -1,9 +1,9 @@
-@article{MondalSuEnFuel2023,
+@article{patrikar2023Ni,
 author = {Yadav, Pradeep Kumar and Patrikar, Kalyani and Mondal, Anirban and Sharma, Sudhanshu},
 title = {Ni/Co in and on CeO2: A Comparative Study on Dry Reforming Reaction},
 journal = {Sustain. Energy Fuels},
-volume = {0},
-number = {0},
-pages = {null},
+volume = {7},
+number = {16},
+pages = {3853},
 year = {2023},
 doi = {10.1039/D3SE00649B}}
