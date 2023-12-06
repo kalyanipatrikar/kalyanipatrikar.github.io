@@ -1,0 +1,281 @@
+body {
+  width: 100%;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+html, button, input, select, textarea,
+    .pure-g [class *= "pure-u"] {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header.sticky-top {
+    z-index: 10000;
+    height: 76px;
+}
+
+header.sticky-top nav {
+    min-height: 76px;
+}
+
+.intro-welcome {
+    position: relative;
+    z-index: 1;
+}
+.intro-welcome::before {
+    background-image: url('/img/logo.png');
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    opacity: 1;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.navbar-img {
+  width: 50px;
+  height:50px;
+}
+
+.nav-box-shadow {
+  box-shadow: 0 0.05rem .1rem rgba(0,0,0,.01), inset 0 -1px 0 rgba(0,0,0,.02);
+}
+
+.heading-mid {
+    font-size: 22px;
+}
+.heading-big {
+    font-size: 50px;
+}
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.footer-img {
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+}
+.intro-img {
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+}
+
+.intro-ad {
+    margin: 0;
+}
+
+.spinner {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid rgb(21, 126, 251); /* Blue */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+    margin: 15px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+/** User types  */
+
+span.user_types {
+    font-size: 1rem;
+    font-weight: 300;
+}
+.user_type_theory {
+    color: rgb(17, 112, 205);
+    margin-left: 2px;
+}
+.user_type_experiments {
+    color: rgb(98, 202, 106);
+    margin-left: 2px;
+}
+.user_type_synthesis {
+    color: rgb(216, 48, 59);
+    margin-left: 2px;
+}
+.user_company {
+    color: rgb(22,22,22);
+    margin-left: 2px;
+}
+
+/** Intro */
+
+.carousel-item {
+    padding: 0 30px 0 30px;
+}
+.carousel-inner {
+    height: auto;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: auto;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -76px;
+    visibility: hidden;
+}
+
+/** Material page */
+
+.sticky-top-sidebar {
+    top: 80px;
+}
+
+.material-sidebar h3 {
+    font-weight: 200;
+}
+
+
+#highchart_plots {
+    overflow: hidden;
+}
+
+#highchart_dos {
+    height: 600px;
+    width: 25%;
+    float: left;
+}
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#highchart_bands {
+    height: 600px;
+    width: 75%;
+    float: left;
+}
+
+/** Search */
+
+.card-disabled .card-body {
+    opacity: 0.5;
+}
+
+.restriction .badge {
+    cursor: pointer;
+}
+
+.restriction h5 {
+    margin: 0;
+}
+
+.restriction input[type="number"] {
+    max-width: 50px;
+}
+.checkbox_enable {
+    cursor: pointer;
+}
+
+/** Hack to make jquery tabs look like bootstrap's */
+.ui-autocomplete {
+    background-color: white;
+    max-width: 300px;
+    border: 1px solid #ddd;
+}
+
+ul.old-tabs {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.old-tabs .nav-item {
+    border: 1px solid;
+    border-color: white;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0.25rem 0.25rem 0 0;
+    box-sizing: border-box;
+    margin-bottom: -1px;
+}
+
+.old-tabs .nav-item.ui-state-active {
+    border: 1px solid  #dee2e6;
+    border-bottom: 1px solid white;
+    border-radius: 0.25rem 0.25rem 0 0;
+    box-sizing: border-box;
+}
+
+.tab-content {
+    border: 1px solid;
+    border-color: #dee2e6;
+    border-top: none;
+}
+
+body > div.cookieconsent-dialog > div {
+    margin-top:100px;
+}
+
+.explanation {
+    display: inline-block;
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+
+    width: 36px;
+    height: 36px;
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+
+    font: 24px Arial, sans-serif
+}
+span.preview {
+    font-weight: normal;
+    color: #ccc;
+}
+
+/* Team page */
+div#team .col-md-3 {
+  text-align: center;
+}
+
+/* Carousel */
+#carousel {
+  padding-bottom: 0.5rem;
+}
+.carousel-indicators li {
+  background-color: rgba(0,0,0,.2);
+}
+.carousel-indicators .active {
+  background-color: rgba(0,0,0,.5);
+}
+.carousel-indicators {
+  bottom: -35px;
+}
+.carousel-indicators > li {
+  border-radius: 50%;
+  width: 10px;
+    height: 10px;
+}
