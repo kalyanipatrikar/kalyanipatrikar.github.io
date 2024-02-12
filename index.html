@@ -37,6 +37,28 @@
   
   <meta name="theme-color" content="#33B38D">
 
+      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitor Counter</title>
+    <script>
+        // Function to retrieve visitor count from local storage
+        function retrieveVisitorCount() {
+            var count = localStorage.getItem('visitorCount');
+            return count ? parseInt(count) : 0;
+        }
+
+        // Function to update visitor count
+        function updateVisitorCount() {
+            var count = retrieveVisitorCount();
+            count++;
+            localStorage.setItem('visitorCount', count);
+            document.getElementById('visitorCount').innerText = count;
+        }
+
+        // Call updateVisitorCount() when the page loads
+        updateVisitorCount();
+    </script>
+
   </head>
 
 <body id="top" data-spy="scroll" data-offset="70" data-bs-target="#navbar-main" >
@@ -462,7 +484,10 @@
     <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
 
   </div>
-  
+
+      <!--h1>Visitor Counter</h1-->
+    <!-- Display visitor count at the footer of the webpage -->
+    <footer> <span id="visitorCount">0</span></footer>
 
 
 </body>
