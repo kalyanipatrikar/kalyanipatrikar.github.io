@@ -24,7 +24,47 @@
   
   <link rel="stylesheet" href="css.css:400,700|Roboto:400,400italic,700|Roboto+Mono&display=swap"> 
   <link rel="stylesheet" href="academic.min.fb.css">
-   <link rel="alternate" href="/index.xml" type="application/rss+xml" title="">
+   <link rel="alternate" href="../index.xml" type="application/rss+xml" title="">
    
 
-  <link rel="manifest" href="/index.xml">
+  <link rel="manifest" href="../index.xml">
+  
+  <meta name="theme-color" content="#33B38D">
+
+  </head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-bs-target="#navbar-main" >
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+    
+      <a class="navbar-brand" href="/"></a>
+      
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+              data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+  </button>
+          
+    <div class="collapse  navbar-collapse" id="navbar">
+      <ul class="navbar-nav mr-auto">
+        
+       <li class="nav-item">
+          <a class="nav-link " href="../#about" data-target="#about"><span>Home</span></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="../#projects" data-target="#projects"><span>Research</span></a>
+        </li>
+
+                        <li class="nav-item">
+          <a class="nav-link " href="../#talks" data-target="#talks"><span>Teaching</span></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="../publications/index.html" data-target="#publications"><span>Publications</span></a>
+        </li>
+
+          </ul>
+     
+    </div>
+  </div>
+</nav>
