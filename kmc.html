@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  <meta name="author" content="Kalyani Patrikar">
+  <meta name="description" content="Researcher">
+
+  <link rel="alternate" hreflang="en-us" href="/">
+    <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+     <link rel="stylesheet" href="github.min.css" crossorigin="anonymous" title="hl-light">
+     <!--link rel="stylesheet" href="dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>  
+
+  
+  <link rel="stylesheet" href="css.css:400,700|Roboto:400,400italic,700|Roboto+Mono&display=swap"> 
+  <link rel="stylesheet" href="academic.min.fb.css">
+   <link rel="alternate" href="/index.xml" type="application/rss+xml" title="">
+   
+
+  <link rel="manifest" href="/index.xml">
+  
+  <!--link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png"-->
+
+  <!--link rel="canonical" href="/"-->
+  
+  <meta name="theme-color" content="#33B38D">
+
+  </head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-bs-target="#navbar-main" >
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+    
+      <a class="navbar-brand" href="/"></a>
+      
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+              data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+  </button>
+          
+    <div class="collapse  navbar-collapse" id="navbar">
+      <ul class="navbar-nav mr-auto">
+        
+       <li class="nav-item">
+          <a class="nav-link " href="/#about" data-target="#about"><span>Home</span></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects" data-target="#projects"><span>Research</span></a>
+        </li>
+
+                        <li class="nav-item">
+          <a class="nav-link " href="/#talks" data-target="#talks"><span>Teaching</span></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " href="publications/index.html" data-target="#publications"><span>Publications</span></a>
+        </li>
+
+          </ul>
+     
+    </div>
+  </div>
+</nav>
+
+<div class="article-container pt-3">
+  <h2 itemprop="name" center> Prediction of Solar Cell Properties Basd on Molecular Structures</h2>
+
+  <div class="article-container">
+
+          <!--div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 509px;">
+  <div style="position: relative">
+    <img src="IV_CR.png" alt="" class="featured-image">
+  </div-->
+            
+    <div class="article-style" itemprop="articleBody">
+      
+      <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 509px;">
+  <div style="position: relative">
+    <img src="kmcmethod.png" alt="" class="featured-image">
+      </div>
+</div>
+<p> Predicitng device properties from molecular properties has two challenges. The morphology of the molecular solid and its energetic disorder may vary significantly even for similar molecules, and lead to difference in performance, but calculation of an accurate morphology requires expensive computations. Secondly, there are several processes charge carriers may undergo withing the molecular solid, all of which need to be evaluated in combination. The model developed here attempted an accurate yet inexpensive representation of a bulk heterojunction solar cell of organic donor and acceptor. </p>
+<p>The morphology was calculated accurately by xTB based methods for pairs of molecules, with homojunction as well as heterojunctions, rather than for a section of bulk. Properties of these dimers were obtained by DFT based calculations. These dimers occupied sites of a single cell containing a domain each of donor and acceptor; homo-dimers occupying bulk and hetero-dimers occupying interface positions. A monte Carlo algorithm implemented the processes in solar cell, exciton diffusion, charge transfer state formation, exciton dissociation, recombination, and charge carrier diffusion. Probability of each process was determined depending on position of charge carriers, and acted as weights for a random selection of the next step in path of charge carriers, carried out till charge carriers exited the domains, or exciton recombined. Such a simulation was repeated over several random configuration of dimers. Short circuit current was estimated based on number of carriers colleced from the domains and their mobility, while open circuit voltage was calculated based on interface properties and short circuit current. The values calculated were matched with experimentally measured values, and were found to be in close agreement, making this model suitable for large scale screening of high throughput molecules. <\p> 
+      <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 509px;">
+  <div style="position: relative">
+    <img src="kmcresult.png" alt="" class="featured-image">
+      </div>
+</div>
+</body>
