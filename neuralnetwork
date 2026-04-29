@@ -75,7 +75,7 @@
 </nav>
 
 <div class="article-container pt-3">
-  <h2 itemprop="name" center> Prediction of Solar Cell Properties Basd on Molecular Structures</h2>
+  <h2 itemprop="name" center> Graph Attention Network predicting Various Molecular Properties</h2>
 
   <div class="article-container">
 
